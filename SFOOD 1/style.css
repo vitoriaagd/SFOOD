@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:wheat ;
+    color: orange;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Karla", sans-serif;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 5vw;
+}
+
+.itens_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.item_header {
+    list-style: none;
+    font-size: 22pt;
+}
+
+.item_header:hover {
+    cursor: pointer;
+    border-bottom: 3px solid orange;
+}
+
+.sua_sacola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    font-size: 22pt;
+    
+    border-radius: 50px;
+    background-color: #FD3974;
+    color: white;
+
+    height: 7vh;
+    width: 15vw;
+}
+
+.marmitas {
+    width: 100%;
+}
+
+.texto-marmita {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+
+    font-family: "Lalezar", system-ui;
+    letter-spacing: 2px;
+    font-size: 60pt;
+    text-align: left;
+    width: 29vw;
+
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 35vh; 
+    gap: 4vw;
+
+    font-family: "Inter", sans-serif;
+}
+
+.produto {
+    background-color: #f8f8f8;
+    width: 25vw;
+    height: 23vh;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.foto-produto {
+    width: 30%;
+}
+
+.descricao {
+    font-weight: 500;
+    width: 13vw;
+    font-size: 12pt;
+    margin-top: 1vh;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+    .texto-marmita {
+        font-size: 40pt;
+        top: 27%;
+        width: 30vw;
+    }
+}
